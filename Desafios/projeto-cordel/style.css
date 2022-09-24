@@ -23,7 +23,26 @@ main {
 }
 
 .imag {
+    display: inline block;
+    background-attachment: fixed;
     background-color: darkgray;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.507);
+}
+
+section.imag > p {
+    color: white;
+    padding: 3px;
+    margin-right: 70%;
+    /* background-color:  rgba(0, 0, 0, 0.103); */
+}
+
+#image01 {
+    background-image: url(../projeto-cordel/background001.jpg);
+    background-position: right center;
+}
+
+#image02 {
+    background-image: url(../projeto-cordel/background002.jpg) ;
 }
 
 p {
@@ -67,6 +86,4 @@ footer {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-
-
 }
