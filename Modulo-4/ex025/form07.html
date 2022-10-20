@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <form action=""  method="get">
+        <p>
+            <label for="est">Estado</label>
+            <select name="estado" id="est">
+                <option value="#" selected>Escolha</option>
+                <optgroup label="Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="profi">Profissão</label>
+            <input type="text" name="profi" id="iprofi" list="lstprofi">
+            <datalist id="lstprofi">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="msg">Mensagem: </label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+</body>
+
+</html>
