@@ -30,8 +30,12 @@
     }
 
     div#formulario {
-        margin-top: 20vh;
+        margin-top: 15vh;
         float: left;
+        width: 50%;
+    }
+
+    input[type='submit'] {
         width: 50%;
     }
 }

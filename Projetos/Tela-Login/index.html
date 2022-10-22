@@ -20,22 +20,26 @@
                 <!-- IMAGEM LOGIN -->
             </div>
             <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem Vindo <br> Faça Login para entrar
+                <div id="telaLogin">
+                    <h1>Login</h1>
+                    <p>Seja bem Vindo <br> Faça Login para entrar
+                </div>
                     <!-- Formulario -->
                 <form action="login.php" method="post">
                     <div class="campo">
-                        <span class="material-symbols-outlined">mail</span>
-                        <label for="ilogin"></label>
-                        <input type="email" name="login" id="ilogin" placeholder="Email" required>
+                        <label for="iiconEmail">
+                            <span id="iconEmail" class="material-symbols-outlined">mail</span>
+                        </label>
+                        <input type="email" name="iconEmail" id="iiconEmail" placeholder="Email" required>
                     </div>
                     <div class="campo">
-                    <span class="material-symbols-outlined">lock</span>
-                    <label for="isenha"></label>
-                    <input type="password" name="senha" id="isenha" placeholder="Senha">
+                    <label for="iiconSenha">
+                        <span class="material-symbols-outlined">lock</span>
+                    </label>
+                    <input type="password" name="iconSenha" id="iiconSenha" placeholder="Senha" required minlength="8" maxlength="16">
                     </div>
                     <br>
-                    <input type="submit" value="Entrar" required minlength="8" maxlength="16">
+                    <input type="submit" value="Entrar">
                     <br>
                     <a href="#">Esqueci a Senha</a>
                 </form>

@@ -13,7 +13,7 @@ body,
 html {
     width: 100vw;
     height: 100vh;
-    
+
     background: linear-gradient(180deg, #1B1959, #66B1F2, #1B1959) no-repeat;
 }
 
@@ -21,6 +21,20 @@ main {
     position: relative;
     width: vw;
     height: 100vh;
+}
+
+div#telaLogin {
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="email"]::placeholder {
+    text-align: center;
+}
+
+input[type="password"]::placeholder {
+    text-align: center;
 }
 
 section#login {
@@ -49,11 +63,6 @@ div#img {
 }
 
 div#formulario {
-    display: block;
-    padding: 15px;
-}
-
-div#formulario {
     padding: 30px;
     text-align: center;
     margin-bottom: 10px;
@@ -71,7 +80,7 @@ a {
     display: block;
     text-decoration: none;
     margin-top: 15px;
-    
+
 }
 
 input[type=submit] {
@@ -89,9 +98,6 @@ input[type=submit] {
 input[type=submit]:hover {
     background: #e2dddd;
     color: black;
-}
-
-div.campo {
 }
 
 span {
