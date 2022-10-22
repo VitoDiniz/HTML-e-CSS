@@ -12,9 +12,30 @@
     }
 
     div#formulario {
-        margin-top: 20vh;
+        margin-top: 15vh;
         float: right;
         width: 70%;
+    }
+
+    input[type='submit'] {
+        font-weight: 700;
+        width: 22vw;
+    }
+
+    input[type="email"] {
+        font-weight: 700;
+        height: 35px;
+        width: 280px;
+    }
+
+    input[type="password"] {
+        font-weight: 700;
+        height: 35px;
+        width: 280px;
+    }
+    
+    .campo {
+        margin: 10px;
     }
 }
 
@@ -35,7 +56,25 @@
         width: 50%;
     }
 
+    div#telaLogin {
+        position: relative;
+        bottom: 30px;
+    }
+
     input[type='submit'] {
-        width: 50%;
+        font-weight: 700;
+        width: 22vw;
+    }
+
+    input[type="email"] {
+        font-weight: 700;
+        height: 30px;
+        width: 280px;
+    }
+
+    input[type="password"] {
+        font-weight: 700;
+        height: 30px;
+        width: 280px;
     }
 }
