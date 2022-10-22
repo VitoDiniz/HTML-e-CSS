@@ -12,10 +12,11 @@ html {
     background-color: lightgray;
 }
 
-header {
+header { 
+    display: block;
     background-color: gray;
     border-radius: 16px;
-    margin: 55px;
+    margin: 30px;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -108,3 +109,4 @@ article p {
         width: 768px;
     }
 }
+

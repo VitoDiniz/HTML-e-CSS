@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    
+    background: linear-gradient(180deg, #1B1959, #66B1F2, #1B1959) no-repeat;
+}
+
+main {
+    position: relative;
+    width: vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+}
+
+div#img {
+    display: block;
+    background: url(https://images.pexels.com/photos/4737484/pexels-photo-4737484.jpeg?cs=srgb&dl=pexels-rafael-cerqueira-4737484.jpg&fm=jpg&_gl=1*1u842je*_ga*MTE3Mzk1NDYzMC4xNjY2NDUyNDU2*_ga_8JE65Q40S6*MTY2NjQ1NzMzNC4yLjEuMTY2NjQ1Nzk3Ni4wLjAuMA..) no-repeat;
+    background-size: cover;
+    background-position: left center;
+    height: 200px;
+}
+
+div#formulario {
+    display: block;
+    padding: 15px;
+}
