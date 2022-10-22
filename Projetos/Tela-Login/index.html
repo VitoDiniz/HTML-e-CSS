@@ -7,22 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
     <main>
+        <!-- Sessão de LOGIN -->
         <section id="login">
-                <div id="img">
-                    
-                </div>
-                <div id="formulario">
-                    <h1>Login</h1>
-                    <p>Seja bem Vindo <br> Faça Login para entrar
-                    <form action="login.php" method="post">
-
-                    </form>
-                    </p>
-                </div>
+            <div id="img">
+                <!-- IMAGEM LOGIN -->
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem Vindo <br> Faça Login para entrar
+                    <!-- Formulario -->
+                <form action="login.php" method="post">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">mail</span>
+                        <label for="ilogin"></label>
+                        <input type="email" name="login" id="ilogin" placeholder="Email" required>
+                    </div>
+                    <div class="campo">
+                    <span class="material-symbols-outlined">lock</span>
+                    <label for="isenha"></label>
+                    <input type="password" name="senha" id="isenha" placeholder="Senha">
+                    </div>
+                    <br>
+                    <input type="submit" value="Entrar" required minlength="8" maxlength="16">
+                    <br>
+                    <a href="#">Esqueci a Senha</a>
+                </form>
+                </p>
+            </div>
         </section>
     </main>
 
