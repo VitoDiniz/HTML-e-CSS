@@ -28,12 +28,27 @@ div#telaLogin {
     margin-bottom: 5px;
 }
 
+input[type=submit] {
+    cursor: pointer;
+    width: 205px;
+    height: 50px;
+    background-color: #0b529194;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 800;
+}
+
 input[type="email"]::placeholder {
     text-align: center;
 }
 
 input[type="password"]::placeholder {
     text-align: center;
+}
+
+input[type=submit]:hover {
+    box-shadow: #0b5291d6 0px 0px 15px;
 }
 
 section#login {
@@ -93,24 +108,8 @@ input#iiconPass {
     width: 200px;
 }
 
-input[type=submit] {
-    transform: translate(15px);
-    cursor: pointer;
-    width: 205px;
-    height: 50px;
-    background-color: #0b529194;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    font-size: 800;
-}
-
 hr {
     margin: 20px;
-}
-
-input[type=submit]:hover {
-    box-shadow: #0b5291d6 0px 0px 15px;
 }
 
 span {
