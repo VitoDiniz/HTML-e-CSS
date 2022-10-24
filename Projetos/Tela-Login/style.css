@@ -54,12 +54,10 @@ section#login {
     transition-timing-function: ease;
 }
 
-div#img {
-    display: block;
-    background: url(https://images.pexels.com/photos/4737484/pexels-photo-4737484.jpeg?cs=srgb&dl=pexels-rafael-cerqueira-4737484.jpg&fm=jpg&_gl=1*1u842je*_ga*MTE3Mzk1NDYzMC4xNjY2NDUyNDU2*_ga_8JE65Q40S6*MTY2NjQ1NzMzNC4yLjEuMTY2NjQ1Nzk3Ni4wLjAuMA..) no-repeat;
-    background-size: cover;
-    background-position: left center;
-    height: 200px;
+#img {
+    transform:translate(0px, 50px);
+    justify-content: center;
+    align-content: center;
 }
 
 div#formulario {
@@ -80,7 +78,6 @@ a {
     display: block;
     text-decoration: none;
     margin-top: 15px;
-
 }
 
 input {
@@ -99,8 +96,7 @@ input#iiconPass {
 
 input[type=submit] {
     cursor: pointer;
-    margin-top: 10px;
-    width: 100%;
+    width: 85%;
     height: 50px;
     background-color: #0b529194;
     color: white;
@@ -109,9 +105,12 @@ input[type=submit] {
     font-size: 800;
 }
 
+hr {
+    margin: 20px;
+}
+
 input[type=submit]:hover {
-    background: #e2dddd;
-    color: black;
+    box-shadow: #0b5291d6 0px 0px 15px; 
 }
 
 span {
