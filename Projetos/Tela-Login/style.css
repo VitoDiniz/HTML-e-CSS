@@ -13,7 +13,6 @@ body,
 html {
     width: 100vw;
     height: 100vh;
-
     background: linear-gradient(180deg, #1B1959, #66B1F2, #1B1959) no-repeat;
 }
 
@@ -55,7 +54,7 @@ section#login {
 }
 
 #img {
-    transform:translate(0px, 50px);
+    transform: translate(0px, 50px);
     justify-content: center;
     align-content: center;
 }
@@ -95,8 +94,9 @@ input#iiconPass {
 }
 
 input[type=submit] {
+    transform: translate(15px);
     cursor: pointer;
-    width: 85%;
+    width: 205px;
     height: 50px;
     background-color: #0b529194;
     color: white;
@@ -110,11 +110,12 @@ hr {
 }
 
 input[type=submit]:hover {
-    box-shadow: #0b5291d6 0px 0px 15px; 
+    box-shadow: #0b5291d6 0px 0px 15px;
 }
 
 span {
     position: relative;
     top: 7px;
-    transform: translate(-5px);
+    font-size: 25px;
+    transform: translate(5px);
 }

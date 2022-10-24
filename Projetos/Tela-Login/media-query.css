@@ -2,16 +2,14 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #img {
-        margin-left: 10%;
+        margin-left: 15vh;
         width: 75%;
     }
 
-    div#formulario {
-    }
-
     input[type='submit'] {
+        transform: translate(15px);
         font-weight: 700;
-        width: 22vw;
+        width: 25vw;
     }
 
     input[type="email"] {
@@ -54,8 +52,9 @@
     }
 
     input[type='submit'] {
+        transform: translate(13px);
         font-weight: 700;
-        width: 22vw;
+        width: 200px;
     }
 
     input[type="email"] {
